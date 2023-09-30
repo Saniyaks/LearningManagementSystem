@@ -90,3 +90,53 @@
     text-align: right;
     color: red;
 }
+
+
+
+@media only screen and (max-width: 1100px) {
+    main {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    .nav{
+        border-radius: 15px 15px 0 0;
+    }
+    .main-content {
+        border-radius: 0 0 15px 15px;
+        padding: 30px;
+    }
+
+    .profile-info {
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .greetings{
+        display: none;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .logo-img{
+        display: none;
+    }
+    .profile {
+        margin-right: 25px;
+        margin-left: 0;
+    }
+    .main-content {
+        padding: 20px;
+    }
+}
+@media only screen and (max-height: 800px) {
+    .menu {
+        padding: 10px 0;
+    }
+}
