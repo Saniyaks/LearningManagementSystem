@@ -14,6 +14,10 @@ import StudentVideo from './pages/student/StudentVideo'
 import TeacherMyCourses from './pages/teacher/TeacherMyCourses'
 import TeacherDashboard from './pages/teacher/TeacherDashboard'
 import TeacherCourseList from './pages/teacher/TeacherCourseList'
+import TeacherStudentList from './pages/teacher/TeacherStudentList'
+import AdminTeacherList from './pages/admin/AdminTeacherList'
+import AdminStudentList from './pages/admin/AdminStudentList'
+import Certificates from './pages/student/Certificates'
 
 
 
@@ -37,6 +41,10 @@ function App() {
             <Route path='teacherCourses' element={<TeacherMyCourses />} />
             <Route path='teacherDashboard' element={<TeacherDashboard />} />
             <Route path='teacherCourseList' element={<TeacherCourseList />} />
+            <Route path='teacherStudentList' element={<TeacherStudentList />} />
+            <Route path='adminTeacherList' element={<AdminTeacherList />} />
+            <Route path='adminStudentList' element={<AdminStudentList />} />
+            <Route path='certificates' element={<Certificates />} />
           </Route>
         </Routes>
       </BrowserRouter>
