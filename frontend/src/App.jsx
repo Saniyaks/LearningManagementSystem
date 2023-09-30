@@ -11,6 +11,9 @@ import StudentTest from './pages/student/StudentTest'
 import StudentUnitDetail from './pages/student/StudentUnitDetail'
 import AdminDashboard from './pages/admin/AdminDashboard'
 import StudentVideo from './pages/student/StudentVideo'
+import TeacherMyCourses from './pages/teacher/TeacherMyCourses'
+import TeacherDashboard from './pages/teacher/TeacherDashboard'
+import TeacherCourseList from './pages/teacher/TeacherCourseList'
 
 
 
@@ -31,6 +34,9 @@ function App() {
             <Route path='studentTest' element={<StudentTest />} />
             <Route path='adminDashboard' element={<AdminDashboard />} />
             <Route path='studentVideo' element={<StudentVideo />} />
+            <Route path='teacherCourses' element={<TeacherMyCourses />} />
+            <Route path='teacherDashboard' element={<TeacherDashboard />} />
+            <Route path='teacherCourseList' element={<TeacherCourseList />} />
           </Route>
         </Routes>
       </BrowserRouter>
